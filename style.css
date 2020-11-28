@@ -1,0 +1,236 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    /* overflow: hidden; */
+}
+.header{
+    background-color: #008080;
+    color: white;
+    height:10vh;
+    /* position: fixed; */
+    top:0;
+    /* width:100vw; */
+}
+.header .header-1
+{
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}   
+.section-1{
+    width: 43%;
+    border-right: 1px solid #D3D3D3;
+    min-height:90vh;
+    background-color: #F5F5F5;
+    display: inline-block;
+    float: left;
+    /* overflow-y: scroll; */
+}
+.top{
+    background-color: white;
+    padding:40px 10px;
+    border-bottom: 1px solid #D3D3D3;
+}
+#form{
+    background-color: #0069D9;
+    border:2px solid #92C7FF;
+    color: white;
+    padding:12px 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#form:hover{
+    border:2px solid #92C7FF; 
+}
+#form:active{
+    border:2px solid #92C7FF; 
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px;
+}
+#search{
+    margin-left: 14px;
+    font-size: 16px;
+    padding:12px 4px;
+    width:50%;
+}
+
+.question{
+    background-color: #F5F5F5;
+    padding: 0;
+    margin: 0;
+    
+}
+.question-box{
+    padding-left:12px;
+    border-bottom: 1px solid #D3D3D3;
+    cursor: pointer;
+}
+.question-box h2{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color:#47515A
+}
+.question-box p{
+    margin-top: 2px;
+}
+
+/* section-2 */
+.section-2{
+    width:50%;
+    position: fixed;
+    display: inline-block;
+    padding: 5%; 
+    /* display:none;    */
+}
+.section-2 h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.section-2 p{
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left:10px;
+}
+
+#subject{
+    display:block;
+    margin: 12px ;
+    margin-left: 0;
+    padding:4px;
+    font-size: 18px;
+}
+#query{
+    display: block;
+    resize: none;
+    padding: 12px;
+    width:80%;
+    font-size: 16px;
+    font-weight: 400;
+}
+#btn-submit{
+    display: block;
+    margin-top: 12px;
+    float: right;
+    margin-right: 17%;
+    padding: 12px 14px;
+    color: white;
+    background-color: #0069D9;
+    border: none;
+}
+/* /////////////////////////////////////////////////////
+/////--------section-3----------/////////////////// */
+.section-3{
+    display: none;
+    position: fixed;
+    right: 0;
+    float: right;
+    width:50%;
+    /* display: inline-block; */
+    min-height:90vh;
+    height: 200px;
+    margin-bottom: 20px;
+    padding:10px  30px;
+    overflow-y:auto;
+}
+.section-3 .answer-form .answer-question h2{
+    color: grey;
+    margin-bottom: 10px;
+
+}
+.section-3 .answer-form .question-answer-form{
+    background-color:  #F5F5F5;
+    color: black;
+    padding:5px 10px;
+    margin-bottom: 10px;
+
+}
+.section-3 .answer-form .question-answer-form h3{
+    color: black;
+    margin: 0;
+
+    font-weight: 100;
+    
+}
+.section-3 .answer-form .question-answer-form p{
+    padding: 2px;
+    margin: 0;
+
+}
+.resolve{
+    /* display: block; */
+    float: right;
+    margin-right: 2%;
+    padding:8px 14px;
+    border:none;
+    background-color: #0069D9;
+    color: rgb(241, 236, 236);
+}
+.resolve::after{
+    content: " ";
+    clear: both;
+
+}
+.res{
+    margin-top: 40px;
+}
+.res h3{
+    margin: 0;
+    padding: 0;
+    color: #5b5c5e9a;
+}
+.res-answer{
+    background-color:  #F5F5F5;
+    /* background-color:  ; */
+    margin-top: 12px;
+
+}
+.res-box h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    color: black;
+    /* margin-top: 10px; */
+    padding-top: 5px;
+    
+}
+.res-box p{
+    padding:0;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.res-box{
+    border-bottom: 1px solid #D3D3D3;
+    /* padding:2px; */
+    padding-left: 10px;   
+}
+
+.add-response h2{
+    font-size:22px;
+    color: grey;
+}
+#user-name{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+#user-answer{
+    display: block;
+    resize: none;
+    width:100%;
+    font-size: 18px;
+    /* height: 100px; */
+    margin-bottom: 10px;
+}
+.res-submit{
+    display: block;
+    margin-bottom: 30px;
+    float: right;
+    padding:10px 16px;
+    border: none;
+    background-color: #0069D9;
+    color: rgb(241, 236, 236);
+}

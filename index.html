@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion app</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="header-1">Discussion Portal</h1>
+    </div>
+    <div class="section-1">
+      <div class="top">
+        <button id="form">New Question form</button>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="search questions..."
+        />
+      </div>
+      <div class="question"></div>
+    </div>
+    <div class="section-2">
+      <div class="question-form">
+        <h1>Welcome to Discussion Portal !</h1>
+        <p>Enter a subject and question to get started</p>
+        <input type="text" placeholder="Subject" id="subject" />
+        <textarea
+          name="question"
+          placeholder="Question"
+          id="query"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button id="btn-submit">Submit</button>
+      </div>
+    </div>
+    <div class="section-3">
+      <div class="answer-form">
+        <div class="answer-question">
+          <h2>Question</h2>
+          <div class="question-answer-form">
+            <h3 id="sub-text">JSON and web storage</h3>
+            <p id="question-text">how to use web</p>
+          </div>
+          <button class="resolve">Resolve</button>
+        </div>
+      </div>
+      <div class="res">
+        <h3 id="responseText">Response</h3>
+        <div class="res-answer"></div>
+      </div>
+      <div class="add-response">
+        <h2>Add Response</h2>
+        <input
+          type="text"
+          name="name"
+          id="user-name"
+          placeholder="Enter Name"
+        />
+        <textarea
+          name="answer"
+          id="user-answer"
+          placeholder="write your answer"
+          cols="30"
+          rows="5"
+        ></textarea>
+        <button class="res-submit">Submit</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
